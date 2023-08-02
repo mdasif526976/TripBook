@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div className="my-[100px] ">
       <h1 className="text-[40px] text-center mb-[60px]">Our Blogs</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] lg:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-[40px] lg:grid-cols-3 justify-center ">
         <BlogCard
           img="https://shorturl.at/uFX69"
           name="My trip to Athens"

@@ -5,7 +5,7 @@ const HomeSearch = () => {
     <div
       style={{ boxShadow: "0px 0px 8px 0px rgba(0, 0, 0, 0.16)" }}
       className=" rounded-[36px] md:h-[80px] p-[15px] bg-white items-center
-      w-full mt-8 md:w-[50rem] 
+      w-full mt-8 lg:w-[50rem] 
       flex flex-row justify-between shadow-sm"
     >
       <div className="flex items-center gap-1">

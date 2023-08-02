@@ -2,7 +2,7 @@ import React from "react";
 import Stick from "react-stick";
 const Card = () => {
   return (
-    <div className="w-[370px] h-[] shadow-xl rounded-xl p-[10px]">
+    <div className=" shadow-xl rounded-xl p-[10px]">
       <Stick
         node={
           <button className="mt-[10px] mr-[10px] bg-[#FFF] w-8 h-8  rounded-full ">

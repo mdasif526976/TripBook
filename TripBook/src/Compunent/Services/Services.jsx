@@ -5,15 +5,17 @@ const Services = () => {
     <div className="py-[70px] px-14 bg-[#F7F7F7] mb-[100px]">
       {/* for headers */}
       <div className="text-center">
-        <h1 className="text-[#262729] text-[40px]">Why Choose Us</h1>
-        <p className="pt-[26px] text-[#333] text-xl text-center px-[15%] mb-[54px]">
+        <h1 className="text-[#262729] text-[30px]  md:text-[40px]">
+          Why Choose Us
+        </h1>
+        <p className="pt-[26px] text-[14px] text-[#333] md:text-xl text-center md:px-[15%] mb-[54px]">
           {" "}
           The main reason is because our competitors have disgusting sites, but
           we can't write that here, so the text here will be different
         </p>
       </div>
       {/* ----------------All card Container---------- */}
-      <div className="flex flex-col md:flex-row gap-[30px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-[30px]">
         <div className="flex flex-col gap-5 w-[270px] items-center ">
           <div
             style={{ opacity: "0.159999996423721" }}

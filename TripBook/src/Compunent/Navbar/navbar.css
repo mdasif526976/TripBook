@@ -1,6 +1,5 @@
 .position {
   background-color: white;
-  height: 4rem;
 }
 .logo {
   color: var(--color-accent, #2a90d9);
@@ -9,4 +8,8 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.mobile {
+  flex-direction: column;
+  display: none;
 }

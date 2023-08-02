@@ -1,7 +1,7 @@
 /* eslint-env node */
 
 module.exports = {
-  env: { browser: true, es2023: true },
+  env: { browser: true, es2022: true },
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",

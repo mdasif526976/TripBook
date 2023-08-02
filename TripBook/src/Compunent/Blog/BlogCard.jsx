@@ -2,7 +2,7 @@ import React from "react";
 
 const BlogCard = ({ img, name, date, detail, readTime }) => {
   return (
-    <div className="w-[370px] rounded-xl flex flex-col">
+    <div className=" rounded-xl flex flex-col">
       <img className="rounded-xl" src={img} alt="" />
       <div className="flex justify-between items-center mt-5 pb-[10px]">
         <p className="text-sm">{date}</p>

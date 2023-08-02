@@ -11,7 +11,7 @@ const Hero = () => {
           We have several thousand apartments for every <br /> taste in every
           corner of the globel.
         </p>
-        <div className="md:absolute bottom-[-40px] left-[16%]">
+        <div className="md:absolute bottom-[-40px] md:left-[11%] lg:left-[16%]">
           <HomeSearch />
         </div>
       </div>
