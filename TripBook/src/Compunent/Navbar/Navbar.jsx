@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import image from "../../images/paper-airplane.png";
 import Aos from "aos";
+import "./navbar.css";
 import "aos/dist/aos.css";
 const Navbar = () => {
   Aos.init();
@@ -12,13 +13,15 @@ const Navbar = () => {
     { name: "Tour", to: "/tour" },
     { name: "Blog", to: "/blog" },
   ];
+  const [navbar, setNavbar] = useState(true);
+
   return (
-    <div className="bg-[#ffffe8] px-[5%]" data-aos="fade-left">
+    <div className={` w-full  position `}>
       {/* for web section */}
-      <div className="flex justify-between py-[45px] items-center ">
+      <div className="flex justify-between mt-6 items-center ">
         <div className="flex items-center">
           <img className="w-10" src={image} alt="" />
-          <p className="font-semibold text-[24px]">TripBook</p>
+          <p className="logo">TripBook</p>
         </div>
         <div className="flex gap-10">
           {menus.map((menu, i) => (

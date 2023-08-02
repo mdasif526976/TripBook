@@ -4,8 +4,8 @@ import Navbar from "../Compunent/Navbar/Navbar";
 import Footer from "../Compunent/Footer";
 const Main = () => {
   return (
-    <div className="">
-      <Navbar className="" />
+    <div className="mx-[5%]">
+      <Navbar />
       <Outlet />
       <Footer />
     </div>
